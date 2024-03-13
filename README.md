@@ -1,5 +1,7 @@
 # ML_Final_Project🏀
 
+We aim to develop a predictive model using machine learning techniques to assess the probability of NBA players being selected as All-Stars. The selection process for an All-Star starter from either the Eastern or Western conference hinges on a weighted vote distribution: 50% from fans, 25% from fellow players, and 25% from media members. Meanwhile, the selection of reserve players is determined through the collective votes of NBA coaches.
+
 ## Packages Used
 
 
