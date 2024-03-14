@@ -1,15 +1,14 @@
 # ML_Final_Project🏀
 
-We aim to develop a predictive model using machine learning techniques to assess the probability of NBA players being selected as All-Stars. The selection process for an All-Star starter from either the Eastern or Western conference hinges on a weighted vote distribution: 50% from fans, 25% from fellow players, and 25% from media members. Meanwhile, the selection of reserve players is determined through the collective votes of NBA coaches.
+
+We aim to develop a machine learning predictive model to estimate the likelihood of NBA players being chosen as All-Stars. The selection process for All-Star starters from both the Eastern and Western Conferences relies on a weighted distribution of votes: 50% from fans, 25% from fellow players, and 25% from members of the media. Conversely, reserve players are selected based on the combined votes of NBA coaches.
+
+Our project will primarily focus on analyzing player data from each season spanning 1951 to 2019. While player performance does not directly determine the All-Star selections, it indirectly influences the decisions of fans, players, and the media.
 
 ## Packages Used
 
-
-* Tensorflow - Machine learning library
 * XGBoost - Gradient boosting framework
-  
-## Limitations
-Unbalanced class: There have only been 30 college players drafted into the NBA that have made an All-Star game since 2008. Therefore, our target class is approximately 5% of our data. Given the already small size of our dataset, this could make it difficult for our model to learn enough information from our features to create an accurate prediciton.
+
 
 
 ## Machine Learning and Predicting NBA All-Star Players
@@ -46,8 +45,7 @@ The dataset exhibits a significant imbalance, with a considerably larger number 
 
 ### Limitations
 
-1. **Data Imbalance:** The model faces challenges due to the significant disparity in the number of regular players and All-Star players. This may lead to biased predictions.
-
+1. **Data Imbalance:** The model faces challenges due to the significant disparity in the number of regular players and All-Star players. This may lead to biased predictions
 2. **Evaluation Bias:** The evaluation metrics may be affected by the data imbalance, requiring additional techniques or sampling strategies to mitigate bias.
 
 ### Conclusion
