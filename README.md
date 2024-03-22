@@ -52,26 +52,14 @@ The optimal number of clusters for clustering algorithms like K-means or hierarc
 6. ## Models with Clustering
 Models were trained and evaluated using both the original dataset and the dataset with additional cluster labels. The clustering labels were incorporated as additional features to assess their impact on model performance.
 
-6.1 ### KMeans
-KMeans clustering was applied to partition the data into distinct clusters based on similarities between data points. Models were trained using features extracted from the KMeans clusters.
+1. ### KMeans
+KMeans clustering was applied to partition the data into distinct clusters based on similarities between data points. Models were  trained using features extracted from the KMeans clusters.
 
-6.2 ### Hierarchical Cluster
+2. ### Hierarchical Cluster
 Hierarchical clustering was used to create a hierarchy of clusters based on the pairwise distances between data points. The resulting clusters were then utilized as features for model training and evaluation.
 
 
-1. **Handling Missing Values & Data Cleaning:** Removing irrelevant features, handling missing values, and ensuring data quality.
- 
-2. **Exploratory Data Analysis (EDA):** Visualizing relationships between features, identifying outliers, and understanding data correlations.
-
-3. **Feature Engineering:** Creating new features, like Player Efficiency Rating (PER), to enhance predictive capabilities.
-
-4. **
-
-4. **Model Training:** Employing logistic regression, clustering, and anomaly detection to build a robust predictive model.
-
-5. **Evaluation:** Assessing model performance using precision, recall, and F1-score.
-
-6. **Anomaly Removal:** Identifying and removing anomalies to improve the model's accuracy.
+7. **Anomaly Removal:** Identifying and removing anomalies to improve the model's accuracy.
 
 ### Limitations
 
