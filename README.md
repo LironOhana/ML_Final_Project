@@ -3,7 +3,7 @@
 
 We aim to develop a machine learning predictive model to estimate the likelihood of NBA players being chosen as All-Stars. The selection process for All-Star starters from both the Eastern and Western Conferences relies on a weighted distribution of votes: 50% from fans, 25% from fellow players, and 25% from members of the media. Conversely, reserve players are selected based on the combined votes of NBA coaches.
 
-Our project will primarily focus on analyzing player data from each season spanning 1951 to 2019. While player performance does not directly determine the All-Star selections, it indirectly influences the decisions of fans, players, and the media.
+Our project will primarily focus on analyzing player data from each season spanning 1951 to 2023. While player performance does not directly determine the All-Star selections, it indirectly influences the decisions of fans, players, and the media.
 
 ## Packages Used
 
