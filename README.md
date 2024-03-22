@@ -17,9 +17,6 @@ Machine learning (ML) contributes significantly to predictive modeling. In this 
 
 ## Project Workflow
 
-
-### Methodology for Handling Missing Values & Data Cleaning
-
 1. #### Handling Missing Values
 Missing values were addressed through imputation techniques such as mean, median, or mode imputation, or by removing rows/columns with missing values based on the nature of the data and the extent of missingness.
 
