@@ -13,21 +13,7 @@ Our project will primarily focus on analyzing player data from each season spann
 
 ## Machine Learning and Predicting NBA All-Star Players
 
-Machine learning (ML) contributes significantly to predictive modeling. In this project, we have chosen to predict NBA All-Star players using various machine learning tools, such as clustering.
-
-### Data Imbalance and Limitations
-
-**Data Imbalance:**
-The dataset exhibits a significant imbalance, with a considerably larger number of regular players compared to All-Star players. This imbalance may impact the model's ability to accurately predict All-Star selections.
-
-**Prediction Methodology:**
-- **Logistic Regression:** A baseline model for predicting All-Star players based on player statistics.
- 
-- **Clustering:** Utilizing clustering techniques to group players based on shared characteristics, enhancing predictive capabilities.
- 
-- **Anomaly Detection:** Identifying and handling outliers to improve overall model accuracy.
-
-- **Evaluation:** Employing metrics such as precision, recall, and F1-score to assess the model's effectiveness.
+Machine learning (ML) contributes significantly to predictive modeling. In this project, we have chosen to predict NBA All-Star players using various Machine learning tools, such as clustering.
 
 ### Project Workflow
 
