@@ -31,11 +31,41 @@ The dataset exhibits a significant imbalance, with a considerably larger number 
 
 ### Project Workflow
 
-1. **Data Cleaning:** Removing irrelevant features, handling missing values, and ensuring data quality.
+
+# Methodology for Handling Missing Values & Data Cleaning
+
+1. ## Handling Missing Values
+Missing values were addressed through imputation techniques such as mean, median, or mode imputation, or by removing rows/columns with missing values based on the nature of the data and the extent of missingness.
+
+2. ## Data Cleaning
+Data cleaning involved tasks such as removing duplicates, correcting inconsistencies, and ensuring data integrity. This step aimed to prepare the data for further analysis and modeling.
+
+3. ## Data Preparation and Feature Scaling
+After cleaning the data, it was prepared for modeling by encoding categorical variables and scaling numerical features. Feature scaling techniques like Min-Max scaling or standardization were applied to ensure that all features contributed equally to the model.
+
+4. ## PCA Data Frame
+Principal Component Analysis (PCA) was performed to reduce the dimensionality of the data while preserving its variance. This step aimed to capture the most important patterns in the data and improve computational efficiency.
+
+5. ## Optimal n for Clustering
+The optimal number of clusters for clustering algorithms like K-means or hierarchical clustering was determined using methods such as the elbow method or silhouette score analysis. This helped identify the appropriate granularity for grouping similar data points together.
+
+6. ## Models with Clustering
+Models were trained and evaluated using both the original dataset and the dataset with additional cluster labels. The clustering labels were incorporated as additional features to assess their impact on model performance.
+
+6.1 ### KMeans
+KMeans clustering was applied to partition the data into distinct clusters based on similarities between data points. Models were trained using features extracted from the KMeans clusters.
+
+6.2 ### Hierarchical Cluster
+Hierarchical clustering was used to create a hierarchy of clusters based on the pairwise distances between data points. The resulting clusters were then utilized as features for model training and evaluation.
+
+
+1. **Handling Missing Values & Data Cleaning:** Removing irrelevant features, handling missing values, and ensuring data quality.
  
 2. **Exploratory Data Analysis (EDA):** Visualizing relationships between features, identifying outliers, and understanding data correlations.
 
 3. **Feature Engineering:** Creating new features, like Player Efficiency Rating (PER), to enhance predictive capabilities.
+
+4. **
 
 4. **Model Training:** Employing logistic regression, clustering, and anomaly detection to build a robust predictive model.
 
