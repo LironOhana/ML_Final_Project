@@ -17,6 +17,32 @@ Our project will primarily focus on analyzing player data from each season spann
 * XGBoost - Gradient boosting framework
 * lightgbm - Gradient boosting framework
 * scipy - Scientific computing library
+* AdaBoostClassifier - Ensemble learning method
+* GradientBoostingClassifier - Ensemble learning method
+* RandomForestClassifier - Ensemble learning method
+* IsolationForest - Anomaly detection algorithm
+* LocalOutlierFactor - Outlier detection algorithm
+* KNeighborsClassifier - k-nearest neighbors classification algorithm
+* NearestNeighbors - Unsupervised learning algorithm for nearest neighbor search
+* train_test_split - Function to split data into training and testing sets
+* GridSearchCV - Grid search with cross-validation for hyperparameter tuning
+* cross_val_score - Function to perform cross-validation scoring
+* MinMaxScaler - Scaling feature values to a range
+* StandardScaler - Standardizing feature values by removing the mean and scaling to unit variance
+* LogisticRegression - Logistic regression classifier
+* classification_report - Function to generate a classification report
+* confusion_matrix - Function to generate a confusion matrix
+* KMeans - Clustering algorithm
+* DBSCAN - Density-based spatial clustering of applications with noise
+* AgglomerativeClustering - Agglomerative hierarchical clustering algorithm
+* enable_iterative_imputer - Enable iterative imputer for missing data imputation
+* IterativeImputer - Imputation of missing values using iterative imputation
+* PCA - Principal component analysis for dimensionality reduction
+* px - Plotly Express for creating interactive plots
+* silhouette_score - Metric for assessing the quality of clusters
+* silhouette_samples - Compute silhouette coefficients for each sample
+* OneClassSVM - Support vector machine for novelty detection
+
 
 
 
