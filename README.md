@@ -62,13 +62,15 @@ Data cleaning involved tasks such as removing duplicates, correcting inconsisten
 3. #### Data Preparation and Feature Scaling
 After cleaning the data, it was prepared for modeling by encoding categorical variables and scaling numerical features. Feature scaling techniques like Min-Max scaling or standardization were applied to ensure that all features contributed equally to the model.
 
-4. #### PCA Data Frame
+4. #### Anomaly Detection: Identifying and investigating anomalies to enhance the model's accuracy.
+  
+5. #### PCA Data Frame
 Principal Component Analysis (PCA) was performed to reduce the dimensionality of the data while preserving its variance. This step aimed to capture the most important patterns in the data and improve computational efficiency.
 
-5. #### Optimal n for Clustering
+6. #### Optimal n for Clustering
 The optimal number of clusters for clustering algorithms like K-means or hierarchical clustering was determined using methods such as the elbow method or silhouette score analysis. This helped identify the appropriate granularity for grouping similar data points together.
 
-6. #### Models with Clustering
+7. #### Models with Clustering
 Models were trained and evaluated using both the original dataset and the dataset with additional cluster labels. The clustering labels were incorporated as additional features to assess their impact on model performance.
 
 1. ##### KMeans
@@ -77,8 +79,6 @@ KMeans clustering was applied to partition the data into distinct clusters based
 2. ##### Hierarchical Cluster
 Hierarchical clustering was used to create a hierarchy of clusters based on the pairwise distances between data points. The resulting clusters were then utilized as features for model training and evaluation.
 
-
-7. **Anomaly Removal:** Identifying and removing anomalies to improve the model's accuracy.
 
 ### Limitations
 
