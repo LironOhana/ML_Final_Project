@@ -7,7 +7,17 @@ Our project will primarily focus on analyzing player data from each season spann
 
 ## Packages Used
 
+* pandas - Data manipulation and analysis library
+* seaborn - Data visualization library based on matplotlib
+* numpy - Numerical computing library
+* matplotlib - Data visualization library
+* scikit-learn - Machine learning library
+* plotly - Interactive data visualization library
+* yellowbrick - Visualization library for machine learning
 * XGBoost - Gradient boosting framework
+* lightgbm - Gradient boosting framework
+* scipy - Scientific computing library
+
 
 
 
